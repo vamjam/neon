@@ -1,0 +1,15 @@
+{
+  "name": "@neon/base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {},
+  "peerDependencies": {
+    "express": "^4.17.2",
+    "get-port": "^6.0.0",
+    "realm": "^10.13.0",
+    "winston": "^3.6.0"
+  }
+}

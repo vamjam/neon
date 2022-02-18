@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "../../dist/neon.base/@types",
+    "outDir": "../../dist/neon.base",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"]
+    },
+    "isolatedModules": true
+  },
+  "include": ["**/*.ts"]
+}

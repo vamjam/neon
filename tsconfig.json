@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "include": [],
+  "references": [
+    { "path": "./packages/neon.admin" },
+    { "path": "./packages/neon.base" },
+    { "path": "./packages/neon.service" },
+    { "path": "./packages/neon.tools" }
+  ]
+}
