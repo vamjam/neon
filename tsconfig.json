@@ -1,10 +1,28 @@
 {
-  "files": [],
-  "include": [],
-  "references": [
-    { "path": "./packages/neon.admin" },
-    { "path": "./packages/neon.base" },
-    { "path": "./packages/neon.service" },
-    { "path": "./packages/neon.tools" }
-  ]
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    "lib": ["ESNext", "DOM"],
+    "skipLibCheck": true,
+
+    "jsx": "preserve",
+    "newLine": "lf",
+    "noErrorTruncation": true,
+
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["**/*.ts", "**/*.json", "**/*.tsx", "**/*.d.ts"]
 }

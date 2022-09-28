@@ -1,0 +1,21 @@
+{
+  "name": "@neon/admin",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dx": "yarn vite --config src/vite.config.ts",
+    "build": "yarn dx build"
+  },
+  "dependencies": {
+    "@neon/ui": "file:../ui",
+    "react-dom": "^18.2.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.0.6",
+    "@types/react": "^18.0.21",
+    "@vitejs/plugin-react": "^2.1.0"
+  }
+}

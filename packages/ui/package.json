@@ -1,0 +1,10 @@
+{
+  "name": "@neon/ui",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "peerDependencies": {
+    "react": ">=18"
+  }
+}

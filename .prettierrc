@@ -3,7 +3,20 @@
   "useTabs": false,
   "semi": false,
   "singleQuote": true,
-  "importOrder": ["^@neon/(.*)$", "^~/(.*)$", "^[./]"],
-  "importOrderSeparation": false,
-  "importOrderSortSpecifiers": true
+  "bracketSameLine": true,
+  "importOrder": [
+    "^node:(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "^@shared/(.*)$",
+    "^~/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSortSpecifiers": true,
+  "importOrderParserPlugins": [
+    "typescript",
+    "jsx",
+    "topLevelAwait",
+    "decorators-legacy",
+    "importAssertions"
+  ]
 }

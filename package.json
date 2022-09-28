@@ -1,8 +1,8 @@
 {
   "name": "neon",
-  "version": "1.0.0",
-  "exports": "./index.js",
-  "repository": "https://github.com/vammjam/neon",
+  "version": "0.0.1",
+  "repository": "https://github.com/vamjam/neon",
+  "author": "vamjam <vammjam@gmail.com>",
   "license": "MIT",
   "private": true,
   "type": "module",
@@ -10,42 +10,21 @@
     "packages/*"
   ],
   "engines": {
-    "node": ">=16.12.0"
+    "node": ">=18"
   },
-  "scripts": {
-    "dx2": "nodemon -e ts,js dist/neon.server/index.js",
-    "dx": "yarn concurrently \"yarn dx:server:build\" \"yarn dx:server:start\"",
-    "dx:server:build": "nodemon -e ts --watch packages/neon.server/src --watch packages/neon.client/src --exec \"yarn build:server\"",
-    "dx:server:start": "nodemon --watch dist/neon.server dist/neon.server/index.js",
-    "dx:server": "yarn build:server --watch",
-    "start:server": "node dist/neon.server/index.js",
-    "tx:server": "yarn tsc -p packages/neon.server/tsconfig.json",
-    "build:base": "yarn tsc -p packages/neon.base/tsconfig.json",
-    "build:client": "yarn clean:client && yarn workspace @neon/client build",
-    "build:server": "yarn tools build server && yarn build:client",
-    "build:tools": "yarn tsc -p packages/neon.tools/tsconfig.json",
-    "tools": "node --experimental-json-modules bin/src/index.js",
-    "clean": "node bin/src/clean.js",
-    "clean:db": "yarn clean \"./.data\"",
-    "clean:client": "yarn clean \"dist/neon.server/assets/*.js\""
-  },
+  "scripts": {},
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
-    "@typescript-eslint/eslint-plugin": "^5.10.1",
-    "@typescript-eslint/parser": "^5.10.1",
-    "concurrently": "^7.0.0",
-    "eslint": "^8.8.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "husky": ">=6",
-    "lint-staged": ">=10",
-    "nodemon": "^2.0.15",
-    "prettier": "^2.5.1",
-    "typescript": "^4.5.5"
-  },
-  "lint-staged": {
-    "*.{ts,tsx}": [
-      "yarn lint"
-    ]
+    "@trivago/prettier-plugin-sort-imports": "^3.3.0",
+    "@types/node": "^18.7.21",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3",
+    "vite": "^3.1.3",
+    "vite-tsconfig-paths": "^3.5.1"
   }
 }
