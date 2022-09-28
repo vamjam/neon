@@ -1,5 +1,3 @@
-const test = ''
-
 export default function externalize(deps: Record<string, string>) {
   const ext = Object.keys(deps)
 
