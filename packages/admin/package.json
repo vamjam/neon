@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "dx": "yarn vite --config src/vite.config.ts",
-    "build": "yarn dx build"
+    "build": "yarn dx build",
+    "build:dev": "yarn build --mode development"
   },
   "dependencies": {
     "@neon/ui": "file:../ui",
