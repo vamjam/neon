@@ -34,7 +34,7 @@ const watch: BuildOptions['watch'] = isWatchMode
 await build({
   entryPoints: [root('src/index.ts')],
   bundle: true,
-  external: Object.keys(pkgJSON.dependencies),
+  external: ['node:*'].concat(Object.keys(pkgJSON.dependencies)),
   outfile: root('dist/server.js'),
   platform: 'node',
   target: `node${process.versions.node}`,

@@ -11,13 +11,17 @@
     "dx": "yarn build -w",
     "build": "yarn ts:node scripts/build.ts",
     "ts:node": "node --experimental-json-modules --loader ts-node/esm",
-    "clean": "yarn rimraf dist"
+    "clean": "yarn rimraf dist",
+    "db:gen": "yarn prisma generate --schema=src/db/schema.prisma",
+    "db:push": "yarn prisma db push --schema=src/db/schema.prisma"
   },
   "dependencies": {
+    "@prisma/client": "^4.4.0",
     "chalk": "^5.0.1",
     "conf": "^10.2.0",
     "express": "^4.18.1",
-    "get-port": "^6.1.2"
+    "get-port": "^6.1.2",
+    "winston": "^3.8.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.14",

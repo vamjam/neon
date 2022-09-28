@@ -1,5 +1,5 @@
 datasource db {
-  url      = env("DATABASE_URL")
+  url      = "file:./neon.db"
   provider = "sqlite"
 }
 
@@ -20,6 +20,8 @@ model Title {
 
   media   Media[]
   credits Credit[]
+
+  @@map("titles")
 }
 
 model Actor {
@@ -29,6 +31,8 @@ model Actor {
   bio       String?
   media     Media[]
   credits   Credit[]
+
+  @@map("actors")
 }
 
 model Credit {
@@ -39,6 +43,8 @@ model Credit {
   titleId    Int
   department String?
   job        String?
+
+  @@map("credits")
 }
 
 model Media {
@@ -49,6 +55,8 @@ model Media {
   titleId Int?
   actor   Actor? @relation(fields: [actorId], references: [id])
   actorId Int?
+
+  @@map("media")
 }
 
 model Library {
@@ -56,4 +64,6 @@ model Library {
   createdAt DateTime
   name      String
   type      Int
+
+  @@map("libraries")
 }
