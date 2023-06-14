@@ -1,0 +1,189 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8",
+    "@_standalone": "yes"
+  },
+  "movie": {
+    "title": "Zack Snyder's Justice League",
+    "originaltitle": "Zack Snyder's Justice League",
+    "sorttitle": "Justice League 2",
+    "ratings": {
+      "rating": [
+        {
+          "value": 8.3,
+          "votes": 197786,
+          "@_name": "imdb",
+          "@_max": 10,
+          "@_default": true
+        },
+        {
+          "value": 8.7,
+          "votes": 3461,
+          "@_name": "themoviedb",
+          "@_max": 10
+        },
+        {
+          "value": 8.19567,
+          "votes": 4247,
+          "@_name": "trakt",
+          "@_max": 10
+        }
+      ]
+    },
+    "userrating": 0,
+    "top250": 140,
+    "outline": "",
+    "plot": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
+    "tagline": "",
+    "runtime": 242,
+    "thumb": [
+      {
+        "#text": "https://assets.fanart.tv/fanart/movies/791373/movieposter/zack-snyders-justice-league-603fdb873f474.jpg",
+        "@_spoof": "",
+        "@_cache": "",
+        "@_aspect": "poster",
+        "@_preview": ""
+      },
+      {
+        "#text": "https://image.tmdb.org/t/p/original/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
+        "@_spoof": "",
+        "@_cache": "",
+        "@_aspect": "poster",
+        "@_preview": ""
+      },
+      {
+        "#text": "https://assets.fanart.tv/fanart/movies/791373/moviethumb/zack-snyders-justice-league-6050310135cf6.jpg",
+        "@_spoof": "",
+        "@_cache": "",
+        "@_aspect": "landscape",
+        "@_preview": ""
+      },
+      {
+        "#text": "https://image.tmdb.org/t/p/original/wcYBuOZDP6Vi8Ye4qax3Zx9dCan.jpg",
+        "@_spoof": "",
+        "@_cache": "",
+        "@_aspect": "landscape",
+        "@_preview": ""
+      },
+      {
+        "#text": "https://assets.fanart.tv/fanart/movies/791373/movieposter/zack-snyders-justice-league-603fdba9bdd16.jpg",
+        "@_spoof": "",
+        "@_cache": "",
+        "@_aspect": "keyart",
+        "@_preview": ""
+      },
+      {
+        "#text": "https://assets.fanart.tv/fanart/movies/791373/hdmovielogo/zack-snyders-justice-league-5ed3f2e4952e9.png",
+        "@_spoof": "",
+        "@_cache": "",
+        "@_aspect": "clearlogo",
+        "@_preview": ""
+      },
+      {
+        "#text": "https://assets.fanart.tv/fanart/movies/791373/moviebanner/zack-snyders-justice-league-6050049514d4c.jpg",
+        "@_spoof": "",
+        "@_cache": "",
+        "@_aspect": "banner",
+        "@_preview": ""
+      }
+    ],
+    "fanart": {
+      "thumb": [
+        {
+          "#text": "https://assets.fanart.tv/fanart/movies/791373/moviebackground/zack-snyders-justice-league-5fee5b9fe0e0d.jpg",
+          "@_colors": "",
+          "@_preview": "https://assets.fanart.tv/preview/movies/791373/moviebackground/zack-snyders-justice-league-5fee5b9fe0e0d.jpg"
+        },
+        {
+          "#text": "https://image.tmdb.org/t/p/original/43NwryODVEsbBDC0jK3wYfVyb5q.jpg",
+          "@_colors": "",
+          "@_preview": "https://image.tmdb.org/t/p/w780/43NwryODVEsbBDC0jK3wYfVyb5q.jpg"
+        }
+      ]
+    },
+    "mpaa": "Australia:M",
+    "playcount": 0,
+    "lastplayed": "",
+    "id": 791373,
+    "uniqueid": [
+      {
+        "#text": "tt12361974",
+        "@_type": "imdb"
+      },
+      {
+        "#text": 791373,
+        "@_type": "tmdb",
+        "@_default": true
+      }
+    ],
+    "genre": "SuperHero",
+    "tag": "TV Recording",
+    "set": {
+      "name": "Justice League Collection",
+      "overview": "Based on the DC Comics superhero team"
+    },
+    "country": "USA",
+    "credits": "Chris Terrio",
+    "director": "Zack Snyder",
+    "premiered": "2021-03-18",
+    "year": 2021,
+    "status": "",
+    "code": "",
+    "aired": "",
+    "studio": "Warner Bros. Pictures",
+    "trailer": "",
+    "fileinfo": {
+      "streamdetails": {
+        "video": {
+          "codec": "hevc",
+          "aspect": 1.777778,
+          "width": 1920,
+          "height": 1080,
+          "durationinseconds": 14528,
+          "stereomode": ""
+        },
+        "audio": [
+          {
+            "codec": "ac3",
+            "language": "eng",
+            "channels": 6
+          },
+          {
+            "codec": "ac3",
+            "language": "fre",
+            "channels": 6
+          }
+        ],
+        "subtitle": {
+          "language": "eng"
+        }
+      }
+    },
+    "actor": [
+      {
+        "name": "Ben Affleck",
+        "role": "Bruce Wayne / Batman",
+        "order": 0,
+        "thumb": "https://image.tmdb.org/t/p/original/u525jeDOzg9hVdvYfeehTGnw7Aa.jpg"
+      },
+      {
+        "name": "Henry Cavill",
+        "role": "Clark Kent / Superman / Kal-El",
+        "order": 1,
+        "thumb": "https://image.tmdb.org/t/p/original/hErUwonrQgY5Y7RfxOfv8Fq11MB.jpg"
+      },
+      {
+        "name": "Gal Gadot",
+        "role": "Diana Prince / Wonder Woman",
+        "order": 2,
+        "thumb": "https://image.tmdb.org/t/p/original/fysvehTvU6bE3JgxaOTRfvQJzJ4.jpg"
+      }
+    ],
+    "resume": {
+      "position": 0,
+      "total": 0
+    },
+    "dateadded": "2021-03-26 11:35:50"
+  }
+}

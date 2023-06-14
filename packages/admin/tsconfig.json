@@ -1,10 +1,12 @@
 {
   "extends": "../../tsconfig.json",
-  "include": ["**/*.ts", "**/*.tsx"],
   "compilerOptions": {
+    "jsx": "preserve",
+    "lib": ["DOM"],
     "paths": {
-      "~/*": ["packages/admin/src/*"],
-      "@shared/*": ["packages/shared/*"]
+      "~/*": ["./src/*"],
+      "@shared/*": ["../shared/*"]
     }
-  }
+  },
+  "include": ["**/*.ts", "**/*.tsx", "**/*.json"]
 }

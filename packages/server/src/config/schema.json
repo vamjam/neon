@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "server.config",
+  "type": "object",
+  "required": [
+    "admin.port",
+    "admin.autoLaunch",
+    "admin.url",
+    "api.url",
+    "db.url",
+    "log.url"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "admin.port": {
+      "type": "number",
+      "default": 2427
+    },
+    "admin.autoLaunch": {
+      "type": "boolean",
+      "default": true
+    },
+    "admin.url": {
+      "type": "string",
+      "format": "uri",
+      "default": "http://localhost:2427/"
+    },
+    "api.url": {
+      "type": "string",
+      "format": "uri",
+      "default": "http://localhost:2427/api"
+    },
+    "db.url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "log.url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "library.url": {
+      "type": "string",
+      "format": "uri"
+    }
+  }
+}

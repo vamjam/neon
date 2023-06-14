@@ -16,7 +16,6 @@
     "typescript",
     "jsx",
     "topLevelAwait",
-    "decorators-legacy",
     "importAssertions"
   ]
 }

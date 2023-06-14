@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "rootDir": ".",
-    "baseUrl": ".",
 
     "target": "ES2022",
     "module": "ESNext",
@@ -9,8 +8,9 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
 
-    "lib": ["ESNext", "DOM"],
+    "lib": ["ESNext"],
     "skipLibCheck": true,
 
     "jsx": "preserve",
@@ -19,10 +19,7 @@
 
     "strict": true,
     "noImplicitAny": true,
-    "noImplicitThis": true,
-
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "noImplicitThis": true
   },
-  "include": ["**/*.ts", "**/*.json", "**/*.tsx", "**/*.d.ts"]
+  "exclude": ["node_modules", "dist"]
 }

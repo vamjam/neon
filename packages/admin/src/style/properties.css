@@ -1,0 +1,46 @@
+:root {
+  --colors-surface-1: hsl(246, 6%, 9%);
+  --colors-surface-2: hsl(240, 5.1%, 11.6%);
+  --colors-surface-3: hsl(241, 5%, 14.3%);
+  --colors-surface-4: hsl(242, 4.9%, 16.5%);
+  --colors-surface-5: hsl(243, 4.9%, 18.8%);
+  --colors-surface-6: hsl(244, 4.9%, 21.5%);
+
+  --colors-text-1: hsl(256, 6%, 93.2%);
+  --colors-text-2: hsl(253, 4%, 63.7%);
+  --colors-text-3: hsl(247, 3.4%, 50.7%);
+  --colors-text-4: hsl(252, 4%, 45.2%);
+  --colors-text-5: hsl(247, 4.8%, 32.5%);
+  --colors-text-6: hsl(245, 4.9%, 25.4%);
+
+  --colors-accent-1: hsl(206, 100%, 99.2%);
+  --colors-accent-2: hsl(210, 100%, 98%);
+  --colors-accent-3: hsl(209, 100%, 96.5%);
+  --colors-accent-4: hsl(210, 98.8%, 94%);
+  --colors-accent-5: hsl(209, 95%, 90.1%);
+  --colors-accent-6: hsl(209, 81.2%, 84.5%);
+  --colors-accent-7: hsl(208, 77.5%, 76.9%);
+  --colors-accent-8: hsl(206, 81.9%, 65.3%);
+  --colors-accent-9: hsl(206, 100%, 50%);
+  --colors-accent-10: hsl(208, 100%, 47.3%);
+  --colors-accent-11: hsl(211, 100%, 43.2%);
+  --colors-accent-12: hsl(211, 100%, 15%);
+
+  --borders-1: 2px solid var(--colors-text-5);
+  --outline-1: 2px solid var(--colors-accent-9);
+
+  --spacing-1: 2.848px;
+  --spacing-2: 3.797px;
+  --spacing-3: 5.063px;
+  --spacing-4: 6.75px;
+  --spacing-5: 9px;
+  --spacing-6: 12px;
+  --spacing-7: 16px;
+  --spacing-8: 21.333px;
+  --spacing-9: 28.444px;
+  --spacing-10: 37.926px;
+  --spacing-11: 50.568px;
+  --spacing-12: 67.424px;
+  --spacing-13: 89.898px;
+  --spacing-14: 119.865px;
+}
